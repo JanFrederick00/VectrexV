@@ -6,12 +6,13 @@
 #include "controller.h"
 
 VectorDisplay display;
-//Sound sound;
+// Sound sound;
 Controller controller;
 
 const uint32_t desired_frame_time = 15000; // us
 
-#include "games/game_asteroids.h"
+// #include "games/game_asteroids.h"
+#include "games/game_pong.h"
 
 void setup()
 {
@@ -24,7 +25,7 @@ void loop()
   controller.Update();
 
   GAME_LOOP();
-  //sound.update();
+  // sound.update();
 
   uint32_t end = micros();
   uint32_t time = end - start;
