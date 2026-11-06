@@ -20,3 +20,7 @@ Firmware is written in c++ (Arduino / PlatformIO).
 
 As a proof-of-concept I implemented my own version of the classic Atari game "Asteroids". It is not meant to be a faithful recreation of the original, even though it re-uses the graphics from the Atari version.
 This program uses more than 98% of the CH32's flash memory (for game code and graphics data), and thus is probably a good representation of the capabilities of this device.
+
+## Pong
+
+A simple variation on a pong-like game, with (optional) gravity for the ball. 
